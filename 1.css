@@ -1,0 +1,32 @@
+body,h1,h2,ul{
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+.box ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.box{
+    margin: 20px;
+}
+.box h2,ul{
+    margin-top: 10px;
+}
+
+.box span{
+    font-weight: bold;
+}
+.selfinfo li,.telinfo li{
+    display: inline;
+    margin: 10px 40px 10px 0;
+}
+.abilityinfo li,.educateinfo li,.projectinfo li{
+    margin: 15px 0;
+}
+.abilityinfo li span:nth-of-type(2),.educateinfo li span:nth-of-type(2),.projectinfo li span:nth-of-type(2){
+    font-weight: normal;
+    display: block;
+}

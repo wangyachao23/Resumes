@@ -1,0 +1,52 @@
+body,h1,h2,ul{
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+.box ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.box{
+    width: 90%;
+    margin: 10px auto;
+    background-color:white;
+    height: 700px;
+}
+.box h1{
+    float: left;
+    width: 15%;
+    height: 100%;
+    background-color: cornflowerblue;
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 50px;
+}
+.box .content{
+    float: left;
+    width: 83%;
+    height: 100%;
+    margin-left: 2%;
+    box-sizing: border-box;
+}
+.box h2,ul{
+    margin-top: 10px;
+}
+
+.box span{
+    font-weight: bold;
+}
+.selfinfo li,.telinfo li{
+    display: inline;
+    margin: 10px 40px 10px 0;
+}
+.abilityinfo li,.educateinfo li,.projectinfo li{
+    margin: 15px 0;
+}
+.abilityinfo li span:nth-of-type(2),.educateinfo li span:nth-of-type(2),.projectinfo li span:nth-of-type(2){
+    font-weight: normal;
+    display: block;
+}
